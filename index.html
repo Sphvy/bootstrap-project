@@ -70,9 +70,9 @@
 
     <!-- Info -->
 
-    <section class="bg-secondary-subtle">
+    <section class="bg-image" style="background-image: url('src/news.jpg'); height: 350px; width: auto;">
       <div class="container">    
-        <div class="p-4 text-center">
+        <div class="p-20 text-center">
           <h2>
             Look forward to the <span class="text-warning font-">news</span>!
           </h2>
@@ -84,52 +84,53 @@
 
     <!-- Cards -->
 
-    <div class="row justify-content-center align-items-center">
-      <div class="card m-5 transition ease-out duration-100 scale-105-hover" style="max-width: 300px">
+    <div>
+      <h2 class="text-center p-3"> Our top news today </h2>
+      <hr>
+    </div>
+
+    <div class="row p-4 justify-content-center align-items-center">
+      <div class="card m-2 transition ease-out duration-100 scale-105-hover" style="max-width: 350px">
         <div>
           <img 
+            class="card-img-top"
             src="src/background.jpg"
-            class="img-fluid rounded-start"
             alt="Card title"
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
+        <div class="card-body">
+          <div class="">
             <h4 class="card-title">News title</h5>
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content.
             </p>
-            <p class="card-text">
+            <p class="">
               <small class="text-muted">Last updated 6 mins ago</small>
             </p>
           </div>
         </div>
       </div>
-      <div class="card m-5 transition ease-out duration-100 scale-105-hover" style="max-width: 300px">
+      <div class="card m-2 transition ease-out duration-100 scale-105-hover" style="max-width: 350px">
         <div>
-          <img
+          <img 
+            class="card-img-top"
             src="src/background.jpg"
-            class="img-fluid rounded-start"
             alt="Card title"
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
+        <div class="card-body">
+          <div class="">
             <h4 class="card-title">News title</h5>
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content.
             </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 8 hours ago</small>
+            <p class="">
+              <small class="text-muted">Last updated 6 mins ago</small>
             </p>
           </div>
         </div>
-      </div>
-      <div>
-        <h2 class="text-center p-3"> Our top news today </h2>
-        <hr>
       </div>
     </div>
 
@@ -141,6 +142,23 @@
           <div class="bg-black-subtle text-center p-4">
             <h2>Contact Us</h2>
             <p class="m-12">Lorem ipsum odor amet, consectetuer adipiscing elit. Semper faucibus erat maecenas vulputate hac urna est. Sit curabitur maecenas metus; lorem habitasse rhoncus lobortis pharetra facilisis. Viverra malesuada diam commodo sapien class massa hac nascetur. Ut ante fermentum hac conubia sem augue curae porttitor.</p>
+          </div>
+          <div class="d-flex p-2 align-items-center justify-content-center text-center">
+            <form>
+              <div class="form-group" style="max-width: 300px;">
+                <label for="InputEmail1">Email address</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group" style="max-width: 300px;">
+                <label for="InputFirstName1">First Name</label>
+                <input type="text" class="form-control"  aria-describedby="nameHelp" placeholder="Enter name">
+              </div>
+              <div class="form-group d-flex flex-column">
+                <label class="text-center">Text</label>
+                <textarea></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary m-4">Submit</button>
+            </form>
           </div>
         </div>
       </div>
